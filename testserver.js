@@ -56,15 +56,13 @@ app.get("/scrape", function (req, res) {
 
             var title = $(element).text();
 
-            console.log(title)
-
         });
 
         $(".text-card__inner__dek").each(function (i, element1) {
 
             var snippet = $(element1).text()
 
-            console.log(snippet)
+            // console.log(snippet)
 
 
         });
